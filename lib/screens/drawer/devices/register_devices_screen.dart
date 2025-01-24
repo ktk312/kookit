@@ -21,7 +21,7 @@ class _RegisterDevicesScreenState extends State<RegisterDevicesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: const CustomDrawer(),
-      appBar: appBarWidget('Register Devices',
+      appBar: appBarWidget(devicesList.isEmpty ? 'Register Devices' : 'Devices',
           actions: devicesList.isNotEmpty
               ? [
                   IconButton(

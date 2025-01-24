@@ -63,8 +63,8 @@ class UpdateDevice extends StatelessWidget {
                   width: 50,
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8),
-                    child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/3060/6b04/936f6e0fcf1cf8ed5d81267cf214f5c0?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LgP6r0ZqGZTQiWCysf25aSadAd8SPx~qyc5vyPgPQkGyXcMO1O3aYKgAWGaEGHj76Gn~5b0w2W-ZzQw9WmKDAZGG3FdT8xEjxXKldm9a9JgpVK5e48wjFsJgYhoLtqVDnvLmjL35EebBV-q1LVbGEb3e8R4RiQaqKJ8BkwttKDFsf~wNX8KN~D1aavlgTb5jTyGebNYPEhjXZ6jloJ1MUozmCWhueCSNgYZQOzZDnMLMN0~3flvH4-lI16Z0GrjK-zDcXQ8SmPZX2PcJDytpoWAvbfs6~Li0ZdTKb~e9HDkS0WPzM-U88sc6qsXX0jAELqX9gD9aapIT8LkM4EBlSA__',
+                    child: Image.asset(
+                      'assets/person1.jpeg',
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -96,8 +96,8 @@ class UpdateDevice extends StatelessWidget {
                   width: 50,
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8),
-                    child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/3010/b822/9f0999d8fb07e0cbc252ce6175cdc837?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AdwGbHy-Opa0BV7VVb1w6-V0KUJ3FV4pEATxSfNVK06AGsQs0Z2lho7bCAlXvwzQVNm40Y9GFJrQ-7He1q5G6vjbUTod2~Ap7zIcvq1ZsUjFMwSaWsj7cSsXlbhirVwsMOvGV~GKSpKrESoLR8Rb~d8EbrcbEEu-rvzvt2Jtp4bqI3L45mEZ8fno~yDnqAUStaOOKU8qLUZEhL9WiRvMsUMIUWhwmDF5eZEwEtHie-XS~SQC0bY73N7qZcLnINt88FrrWonewfFbi0SL6BjY7bnjDvnL8Tqa51BeQYNY0Bp9FTfQa30Kpeh56JGCbhunA0AK4bL4fPR42DTqyig7yA__',
+                    child: Image.asset(
+                      'assets/person2.jpeg',
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -129,8 +129,8 @@ class UpdateDevice extends StatelessWidget {
                   width: 50,
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8),
-                    child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/abf3/5dc7/46437a0b18362b03e1ba3171f288309e?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AcYt2UzSmNRt4wn0k26LdwuSyvNDNtYzo5~bQRBNEIlI4BNhHDM45ylb3lJXiXg4QT~W2P8dLS4soF2ipR2J~k9hdAAYtfoYUNIWf6MVNtgNybQo7oDvfxmsVsHT~xVkWipvJmuKE6DzLunUOjOa3xsdFuHbN55yS9Cz78SA25C8wV0n~XP~A6kXADQ2XsONzg9HAFHHL1XDZb2JIj99q7QN3aUBlljWKNUw0BQepu-5CEhRT1tjVcimnWAgXhAswJbHTy-YIa0B-wTWiLw~9-V6uGsP6D6zqFUXBreflN8LqJjpTU4fgnPuhAmisuqkRhucajg3iNRtepA5Q3ZINw__',
+                    child: Image.asset(
+                      'assets/person3.jpeg',
                       fit: BoxFit.cover,
                     ),
                   ),

@@ -39,8 +39,8 @@ class SingleRecipe extends StatelessWidget {
                             border: Border.all(color: AppColors.fillBlueColor)),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(7),
-                          child: Image.network(
-                            'https://s3-alpha-sig.figma.com/img/2d75/9568/588b03103ab17eba61feab9f8a5c98d9?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JXYLRpUMWoWgEMCMMRyVPwEVelxi-matlRihg0egKY7wANyIr8fCq0RI3ELjJRGRbb4K4YtwAcMB22lnPvaMTKLCDm118Lo2eXPX2Fzlq1ZF7U~5nnDMCesOYfoE~ZHpnWHwtRP4eAlEEpLUs0UUTwjOPcuordu2lmB8LVgpotgZCkc1Ei8fwmFjnMXiIru0S9Ca5OCzlJSZIkVaOjz8NoJKueN1oboXZOviplWWJfwRgooJFt0Pz~gDcbqAeIXdpHGYOuBA3h1D0-W4EbmFeql34W-0Gk3CXWjFBgOJDbbq2KYwcSoHxrJHrSgrYeqZIkL0scAM0dGH9e~UBI7sLA__',
+                          child: Image.asset(
+                            'assets/pic.png',
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -175,8 +175,8 @@ class RecipeDetailHeader extends StatelessWidget {
                       border: Border.all(color: AppColors.fillBlueColor)),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(7),
-                    child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/2d75/9568/588b03103ab17eba61feab9f8a5c98d9?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JXYLRpUMWoWgEMCMMRyVPwEVelxi-matlRihg0egKY7wANyIr8fCq0RI3ELjJRGRbb4K4YtwAcMB22lnPvaMTKLCDm118Lo2eXPX2Fzlq1ZF7U~5nnDMCesOYfoE~ZHpnWHwtRP4eAlEEpLUs0UUTwjOPcuordu2lmB8LVgpotgZCkc1Ei8fwmFjnMXiIru0S9Ca5OCzlJSZIkVaOjz8NoJKueN1oboXZOviplWWJfwRgooJFt0Pz~gDcbqAeIXdpHGYOuBA3h1D0-W4EbmFeql34W-0Gk3CXWjFBgOJDbbq2KYwcSoHxrJHrSgrYeqZIkL0scAM0dGH9e~UBI7sLA__',
+                    child: Image.asset(
+                      'assets/pic.png',
                       fit: BoxFit.cover,
                     ),
                   ),

@@ -119,7 +119,7 @@ class ProfileScreen extends StatelessWidget {
                     ),
                     AppGaps.hGap5,
                     const CustomText(
-                        text: 'Address',
+                        text: 'Choose Your Option',
                         color: Color(0xFF262627),
                         fontSize: 15,
                         fontWeight: FontWeight.w600),
